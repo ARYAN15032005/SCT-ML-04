@@ -3,7 +3,6 @@
 
 A deep learning model that classifies hand gestures in real-time using webcam input, enabling touchless human-computer interaction.
 
-![Demo](demo.gif) *Replace with your actual demo GIF*
 
 ## 🚀 Features
 - Real-time gesture classification (9+ gestures)
@@ -14,11 +13,11 @@ A deep learning model that classifies hand gestures in real-time using webcam in
 
 ## 📦 Installation
 ```bash
-git clone https://github.com/yourusername/hand-gesture-recognition.git
+git clone https://github.com/ARYAN15032005/SCT-ML-04
 cd hand-gesture-recognition
 pip install -r requirements.txt
 ```
-##🧠 Model Architecture
+## 🧠 Model Architecture
 Model: "Sequential"
 _________________________________________________________________
  Layer (type)                Output Shape              Param #   
@@ -46,15 +45,15 @@ Total params: 12,940,593
 Trainable params: 12,940,593
 Non-trainable params: 0
 
-##📊 Performance Metrics
+## 📊 Performance Metrics
 Model achieves 94.2% accuracy on test set
 
-##🛠 Usage
+## 🛠 Usage
 Train new model:
 ```
 python train.py --epochs 50 --batch_size 32
 ```
-##📂 Project Structure
+## 📂 Project Structure
 ```
 hand-gesture-recognition/
 ├── models/              # Pretrained models
@@ -65,10 +64,10 @@ hand-gesture-recognition/
 ├── train.py             # Training script
 └── requirements.txt     # Dependencies
 ```
-##🤝Contributing
+## 🤝Contributing
 Pull requests welcome! For major changes, please open an issue first.
 
-##📄License
+## 📄License
 MIT @ARYAN15032005
 ### Key elements included:
 1. **Visual demo** (replace with your actual GIF)
@@ -78,14 +77,4 @@ MIT @ARYAN15032005
 5. **Project structure** overview
 6. **Contributing** guidelines
 
-To add:
-1. Upload a short demo.gif (screen record your webcam demo)
-2. Add actual confusion matrix plot in `/images`
-3. Update model architecture if different
-4. Include your real accuracy metrics
 
-Would you like me to add any specific sections like:
-- Detailed dataset description
-- Training curves visualization
-- Hardware requirements
-- Benchmark comparisons?
