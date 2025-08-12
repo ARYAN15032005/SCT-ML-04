@@ -1,6 +1,8 @@
 # SCT-ML-04
 # 👋 Hand Gesture Recognition System
 
+### Dataset : https://www.kaggle.com/datasets/gti-upm/leapgestrecog
+
 A deep learning model that classifies hand gestures in real-time using webcam input, enabling touchless human-computer interaction.
 
 
@@ -10,6 +12,7 @@ A deep learning model that classifies hand gestures in real-time using webcam in
 - Model training notebooks with visualization
 - Pre-trained models available
 - Accuracy metrics and performance analysis
+  
 
 ## 📦 Installation
 ```bash
